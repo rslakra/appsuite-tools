@@ -20,7 +20,7 @@ public class PdfTools {
         String htmlFileName = "Transaction-Fees.html";
         String pdfFileName = "Transaction-Fees.pdf";
         String imageFileName = "Transaction-Fees";
-//        try {
+// try {
         String filePath = IOUtils.pathString(IOUtils.getUserDir(), "/pdf-tools/target/classes");
         LOGGER.debug("filePath: {}", filePath);
         pdfFileName = IOUtils.pathString(filePath, pdfFileName);
@@ -29,8 +29,8 @@ public class PdfTools {
         LOGGER.debug("htmlFileName: {}", htmlFileName);
 //            PdfUtils.pdfToHtmlGenerator(pdfFileName, htmlFileName);
 //            PdfUtils.pdfToImageGenerator(pdfFileName, imageFileName, PdfUtils.DOT_JPG);
-//        } catch (IOException e) {
+// } catch (IOException e) {
 //            e.printStackTrace();
-//        }
+// }
     }
 }

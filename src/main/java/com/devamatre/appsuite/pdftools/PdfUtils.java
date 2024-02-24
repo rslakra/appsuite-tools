@@ -21,7 +21,7 @@ import java.io.Writer;
 import java.net.URL;
 
 /**
- * @author Rohtash Lakra (rslakra.work@gmail.com)
+ * @author Rohtash Lakra
  * @version 1.0.0
  * @since Mar 18, 2023 13:39:11
  */

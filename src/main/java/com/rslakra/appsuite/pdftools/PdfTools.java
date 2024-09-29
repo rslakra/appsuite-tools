@@ -1,6 +1,6 @@
-package com.devamatre.appsuite.pdftools;
+package com.rslakra.appsuite.pdftools;
 
-import com.devamatre.appsuite.core.IOUtils;
+import com.rslakra.appsuite.core.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

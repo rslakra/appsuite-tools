@@ -2,7 +2,7 @@
 
 ---
 
-The ```appsuite-pdf-tools``` project contains the PDF handling components.
+The ```appsuite-tools``` project contains the PDF handling components.
 
 ## How to set up
 
@@ -10,7 +10,7 @@ The ```appsuite-pdf-tools``` project contains the PDF handling components.
 
 ### 1. Clone the repository in your GIT account or local machine
 
-> ```https://github.com/rslakra/appsuite-pdf-tools.git```
+> ```https://github.com/rslakra/appsuite-tools.git```
 
 ### 2. Build the project
 

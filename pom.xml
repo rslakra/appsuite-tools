@@ -3,20 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <!-- appsuite-pdf-tools -->
+    <!-- appsuite-tools -->
     <groupId>com.rslakra.appsuite</groupId>
     <artifactId>appsuite-tools</artifactId>
     <version>${revision}</version>
     <packaging>jar</packaging>
+    <!-- project name, description and url -->
     <name>${project.artifactId}</name>
-    <description>The ${project.artifactId} Application</description>
+    <description>The ${project.artifactId} deployment to the Central Repository</description>
+    <url>https://github.com/rslakra/appsuite-tools</url>
 
     <!-- Properties -->
     <properties>
         <!-- revision -->
         <revision>0.0.0</revision>
 
-        <!-- sourceEncoding &  outputEncoding -->
+        <!-- sourceEncoding & outputEncoding -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -39,9 +41,6 @@
 
         <!-- lombok -->
         <lombok.version>1.18.34</lombok.version>
-
-        <!-- swagger -->
-        <swagger.skip>false</swagger.skip>
 
         <!-- pdf-tools -->
         <pdfbox-tools.version>2.0.25</pdfbox-tools.version>
@@ -96,6 +95,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <dependency>
             <groupId>net.sf.cssbox</groupId>
             <artifactId>pdf2dom</artifactId>
@@ -107,6 +107,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
         <dependency>
             <groupId>com.itextpdf</groupId>
@@ -119,6 +120,7 @@
             <artifactId>xmlworker</artifactId>
             <version>${xmlworker.version}</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -150,6 +152,7 @@
             <artifactId>flying-saucer-pdf-openpdf</artifactId>
             <version>${flying-saucer-pdf-openpdf.version}</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
         <dependency>
             <groupId>org.jsoup</groupId>
@@ -219,11 +222,12 @@
 
     <!-- Build -->
     <build>
+
         <!-- plugins -->
         <plugins>
 
             <!-- Note:- Don't uncomment this plug-in for the common packages -->
-            <!-- frameworks-boot-maven-plugin -->
+            <!-- spring-boot-maven-plugin -->
             <!--            <plugin>-->
             <!--                <groupId>org.springframework.boot</groupId>-->
             <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->

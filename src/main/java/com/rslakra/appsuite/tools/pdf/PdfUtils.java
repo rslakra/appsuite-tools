@@ -1,4 +1,4 @@
-package com.rslakra.appsuite.pdftools;
+package com.rslakra.appsuite.tools.pdf;
 
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;

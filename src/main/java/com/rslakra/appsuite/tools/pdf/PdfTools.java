@@ -1,4 +1,4 @@
-package com.rslakra.appsuite.pdftools;
+package com.rslakra.appsuite.tools.pdf;
 
 import com.rslakra.appsuite.core.IOUtils;
 import org.slf4j.Logger;

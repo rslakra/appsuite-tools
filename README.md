@@ -1,4 +1,4 @@
-# appsuite-pdf-tools
+# appsuite-tools
 
 ---
 

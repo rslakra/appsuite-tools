@@ -27,7 +27,10 @@ Run the program with the following command
 ---
 
 * [Java](https://www.java.com/en/download/mac_download.jsp) - The Java Download Location
-* [Maven](https://maven.apache.org/) - Dependency Management
+* [Maven](https://maven.apache.org) - Dependency Management
+* [Jekyll](https://jekyllrb.com)
+* [documentation](https://help.github.com/categories/github-pages-basics)
+* [contact support](https://github.com/contact)
 
 ## Authors
 

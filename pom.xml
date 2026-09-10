@@ -56,7 +56,7 @@
         <open-html-pdfbox.version>1.0.6</open-html-pdfbox.version>
         <open-html-pdf-core.version>1.0.6</open-html-pdf-core.version>
         <flying-saucer-pdf-openpdf.version>9.1.22</flying-saucer-pdf-openpdf.version>
-        <jsoup.version>1.15.4</jsoup.version>
+        <jsoup.version>1.23.1</jsoup.version>
 
         <!-- junit-jupiter-params -->
         <junit-jupiter-params.version>5.9.2</junit-jupiter-params.version>
